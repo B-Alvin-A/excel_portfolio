@@ -48,7 +48,6 @@ ________________________________________
 •	Incorrect revenue values
 •	Free-text columns not needed for analysis
 📷 Raw Data Preview
-(Screenshot: screenshots/raw-data-preview.png)
 ![alt text](./screenshots/raw-data-preview1.png)
 ![alt text](./screenshots/raw-data-preview2.png)
 ________________________________________
@@ -66,7 +65,6 @@ Key steps include:
 8.	Create calculated columns (Revenue, Month, Year)
 9.	Load cleaned data as a table
 📷 Power Query Applied Steps
-(Screenshot: screenshots/power-query-steps.png)
 ![alt text](./screenshots/power-query-steps1.png)
 ![alt text](./screenshots/power-query-steps2.png)
 ________________________________________
@@ -85,7 +83,6 @@ Final Columns:
 •	Month
 •	Year
 📷 Cleaned Data Preview
-(Screenshot: screenshots/cleaned-table-preview.png)
 ![alt text](./screenshots/cleaned-table-preview1.png)
 ![alt text](./screenshots/cleaned-table-preview2.png)
 ________________________________________
