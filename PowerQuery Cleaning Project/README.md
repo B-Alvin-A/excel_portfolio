@@ -1,29 +1,33 @@
 # Power Query Data Cleaning Project
 📌 Project Overview
+
 This project demonstrates how to use Excel Power Query to clean, standardize, and prepare messy raw sales data for analysis and reporting.
 The raw data intentionally contains common real-world issues such as inconsistent formats, duplicates, text-based numbers, and incorrect calculations.
 The goal is to produce a single, clean, refreshable dataset ready for dashboards and further analysis.
 ________________________________________
 
 🏢 Business Scenario
+
 Sales data is received monthly from multiple branches in inconsistent formats.
 Manual cleaning is time-consuming and error-prone.
 Management requires:
-•	A repeatable cleaning process
-•	Standardized data structure
-•	One-click refresh capability
+*	A repeatable cleaning process
+*	Standardized data structure
+*	One-click refresh capability
 ________________________________________
 
 🎯 Project Objectives
-•	Import raw Excel data using Power Query
-•	Clean and standardize all fields
-•	Remove errors, duplicates, and unnecessary columns
-•	Recalculate key metrics correctly
-•	Deliver a final clean fact table
+
+*	Import raw Excel data using Power Query
+*	Clean and standardize all fields
+*	Remove errors, duplicates, and unnecessary columns
+*	Recalculate key metrics correctly
+*	Deliver a final clean fact table
 ________________________________________
 
 📂 Project Structure
-excel-project-66-power-query-data-cleaning/
+```text
+PowerQuery Cleaning Project/
 │
 ├── data/
 │   └── raw_sales_data.xlsx        # Original messy source data
@@ -32,21 +36,26 @@ excel-project-66-power-query-data-cleaning/
 │   └── power-query-data-cleaning.xlsx  # Final Excel file with Power Query
 │
 ├── screenshots/
-│   ├── raw-data-preview.png       # BEFORE cleaning
-│   ├── power-query-steps.png      # Applied Steps view
-│   └── cleaned-table-preview.png  # AFTER cleaning
+│   ├── raw-data-preview1.png       # BEFORE cleaning
+│   ├── raw-data-preview2.png       # BEFORE cleaning
+│   ├── power-query-steps1.png      # Applied Steps view
+│   ├── power-query-steps2.png      # Applied Steps view
+│   ├── cleaned-table-preview1.png  # AFTER cleaning
+│   └── cleaned-table-preview2.png  # AFTER cleaning
 │
 └── README.md
+```
 ________________________________________
 
 🧾 Raw Data Issues Identified
-•	Inconsistent column naming
-•	Mixed date formats
-•	Duplicate records
-•	Numbers stored as text
-•	Inconsistent region and product names
-•	Incorrect revenue values
-•	Free-text columns not needed for analysis
+* Inconsistent column naming
+* Mixed date formats
+* Duplicate records
+* Numbers stored as text
+* Inconsistent region and product names
+* Incorrect revenue values
+* Free-text columns not needed for analysis
+  
 📷 Raw Data Preview
 
 ![alt text](./screenshots/raw-data-preview1.png)
@@ -76,16 +85,17 @@ ________________________________________
 ✅ Final Cleaned Dataset
 The final output is a single clean table ready for analysis.
 Final Columns:
-•	OrderID
-•	OrderDate
-•	Region
-•	SalesRep
-•	Product
-•	Quantity
-•	UnitPrice
-•	Revenue
-•	Month
-•	Year
+*	OrderID
+*	OrderDate
+*	Year
+*	Month
+*	Region
+*	SalesRep
+*	Product
+*	Quantity
+*	UnitPrice
+*	Revenue
+  
 📷 Cleaned Data Preview
 
 ![alt text](./screenshots/cleaned-table-preview1.png)
@@ -101,29 +111,29 @@ ________________________________________
 ________________________________________
 
 🛠 Tools Used
-•	Microsoft Excel
-•	Power Query (Get & Transform)
+*	Microsoft Excel
+*	Power Query (Get & Transform)
 ________________________________________
 
 📈 Skills Demonstrated
-•	Data cleaning and transformation (ETL)
-•	Power Query best practices
-•	Data standardization
-•	Error handling
-•	Analytical thinking
-•	Documentation for reproducibility
+*	Data cleaning and transformation (ETL)
+*	Power Query best practices
+*	Data standardization
+*	Error handling
+*	Analytical thinking
+*	Documentation for reproducibility
 ________________________________________
 
 🚀 Next Steps
 This cleaned dataset can be reused for:
-•	Sales dashboards
-•	Power Pivot models
-•	Automated reporting solutions
+*	Sales dashboards
+*	Power Pivot models
+*	Automated reporting solutions
 ________________________________________
 
 ✔️ Notes
-•	Raw data remains untouched
-•	All logic is transparent and refreshable
-•	No formulas or VBA used
+*	Raw data remains untouched
+*	All logic is transparent and refreshable
+*	No formulas or VBA used
 ________________________________________
 
